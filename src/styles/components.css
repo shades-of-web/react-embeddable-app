@@ -1,0 +1,11 @@
+@import "tailwindcss/components";
+
+@layer components {
+  .react-embeddable-app {
+    .btn {
+      &.btn-primary {
+        @apply p-4 rounded bg-primary font-heading font-bold min-w-[208px];
+      }
+    }
+  }
+}
